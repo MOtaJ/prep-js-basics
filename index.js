@@ -11,6 +11,12 @@
 **/
 
 
+var firstName = "Mark";
+console.log(firstName);
+var lastName = "Ota";
+console.log(lastName);
+var birthPlace = "Kailua";
+console.log(birthPlace);
 
 /**
 * #2
@@ -22,7 +28,14 @@
 * Their values should be a Number
 **/
 
-
+var num = 50;
+console.log(num);
+var favoriteNumber = 22;
+console.log(favoriteNumber);
+var currentYear = 2016;
+console.log(currentYear);
+var thatOnePrinceSong = 1990;
+console.log(thatOnePrinceSong);
 
 /**
 * #3
@@ -34,7 +47,14 @@
 * Their values should be a Boolean
 **/
 
-
+var isDaytime = false;
+console.log(isDaytime);
+var isLeftHanded = false;
+console.log(isLeftHanded);
+var inHawaii = true;
+console.log(inHawaii);
+var isHappyCoding = true;
+console.log(isHappyCoding);
 
 /**
 * #4
@@ -45,7 +65,10 @@
 * Their values should be a Null value
 **/
 
-
+var enrolledAtDevLeague = null;
+console.log(enrolledAtDevLeague);
+var completedFridayPrep = null;
+console.log(enrolledAtDevLeague);
 
 /**
 * #5a
@@ -56,7 +79,8 @@
 * which can be found along the west coast of The United States.
 **/
 
-
+var westCoast = ["california", "oregon", "washington", "vegas"];
+console.log(westCoast);
 
 /**
 * #5b
@@ -67,7 +91,8 @@
 * Have at least ten even values in this array.
 **/
 
-
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+console.log(evenNumbers);
 
 /**
 * #6a Arithmetic
@@ -80,8 +105,14 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
+var sumOfNumbers = 18 + 2;
+	console.log(sumOfNumbers)
 
+var differenceOfNumbers = 20 - 10;
+	console.log(differenceOfNumbers);
 
+var productOfNumbers = 15 * 3
+	console.log(productOfNumbers);	
 
 /**
 * #6b Comparisons & Logic
@@ -101,7 +132,9 @@
 *   operator(==) vs triple comparison operator(===).
 */
 
-
+var isEqual;
+isEqual = ("Tacocat" === "tacocat")
+console.log(isEqual);
 
 /**
 * #6c Assignments
@@ -119,7 +152,12 @@
 *   it can only test that you declared the variable by giving it the right name.
 */
 
-
+var generalContainer = ["Burger", 20, "Mark", null, "Ota"]
+console.log(generalContainer[0])
+console.log(generalContainer[1])
+console.log(generalContainer[2])
+console.log(generalContainer[3])
+console.log(generalContainer[4])
 
 /**
 * #7a
@@ -133,7 +171,10 @@
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
 
-
+ var jump = function(height) {
+ 	return ("You Jumped 9 feet high!");
+}
+console.log(jump(8))
 
 /**
 * #7b
