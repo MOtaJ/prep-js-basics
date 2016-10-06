@@ -34,7 +34,7 @@ var favoriteNumber = 22;
 console.log(favoriteNumber);
 var currentYear = 2016;
 console.log(currentYear);
-var thatOnePrinceSong = 1990;
+var thatOnePrinceSong = 1999;
 console.log(thatOnePrinceSong);
 
 /**
@@ -171,10 +171,12 @@ console.log(generalContainer[4])
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
 
- var jump = function(height) {
- 	return ("You Jumped 9 feet high!");
-}
-console.log(jump(8))
+ function jump(height) {
+ 	return "You jumped" + " " + height + " " + "feet high!"
+};
+
+var jumpResult = jump(12);
+console.log(jumpResult);
 
 /**
 * #7b
@@ -185,4 +187,14 @@ console.log(jump(8))
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
+
+function cook(ingredient1, ingredient2, recipeName) {
+	return ingredient1 + " " + "and" + " " + ingredient2 + " " + "make a" + " " + recipeName + "!"
+}
+
+var ingredient1 = "Tomatoes";
+var ingredient2 = "Cheese";
+var recipename = "Pizza";
+
+console.log(cook("Tomatoes", "Cheese", "Pizza"));
 
